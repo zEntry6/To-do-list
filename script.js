@@ -6,7 +6,6 @@ const filters = document.querySelectorAll("#filters button");
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 let filter = "all";
 
-// Render todos based on filter
 function render() {
   list.innerHTML = "";
 
